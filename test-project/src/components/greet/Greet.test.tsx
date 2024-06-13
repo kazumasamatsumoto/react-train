@@ -7,11 +7,12 @@ test("挨拶が正常にレンダリングされる", () => {
   expect(textElement).toBeInTheDocument();
 })
 
-test("挨拶が正常にレンダリングされる2", () => {
-  render(<Greet />);
-  const textElement = screen.getByText("hello");
-  expect(textElement).toBeInTheDocument();
-})
+// test("挨拶が正常にレンダリングされる2", () => {
+//   // これは必ず失敗するようにしています。
+//   render(<Greet />);
+//   const textElement = screen.getByText("hello");
+//   expect(textElement).toBeInTheDocument();
+// })
 
 test("挨拶が正常にレンダリングされる3", () => {
   render(<Greet />);

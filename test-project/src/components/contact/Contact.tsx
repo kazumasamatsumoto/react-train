@@ -26,6 +26,7 @@ const Contact = () => {
             利用規約に同意します
           </label>
         </div>
+        <button>送信</button>
       </form>
     </>
   )
